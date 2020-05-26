@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="./css/materialize.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <title>Pesquisa de Usários</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="header center">
+        Pesquisa de Usários
+      </h1>
+
+      <div class="row">
+        <div class="input-field col s12">
+          <i class="material-icons prefix">search</i>
+          <input id="find" type="text" class="validate" />
+          <label for="find">Busca</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s7">
+          <div id="userFilter" class="div-opcoes">
+            <h3 id="userFilterTitle"></h3>
+            <div id="userFilterList"></div>
+          </div>
+        </div>
+        <div class="col s5">
+          <div id="userStatus" class="div-opcoes">
+            <h3 id="userStatusTitle"></h3>
+            <div id="userStatusList"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
